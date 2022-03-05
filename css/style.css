@@ -1,0 +1,280 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+body {
+  font-family: "Open Sans", sans-serif;
+}
+h1,
+h4,
+h5 {
+  color: white;
+}
+
+p {
+  color: #66778e;
+  font-size: 14px;
+  line-height: 2;
+}
+button {
+  border: 1px solid #2a5da3;
+  border-radius: 30px;
+  padding: 10px 30px;
+  color: white;
+  background-color: transparent;
+  transition: 0.4s ease-in-out;
+}
+button:hover {
+  background-color: #2a5da3;
+}
+span {
+  color: #2a5da3;
+}
+
+/* Navbar */
+.cstm-nav {
+  background-color: #0a2345;
+}
+
+/* Header Section */
+header {
+  background-color: #0a2345;
+  padding-top: 230px;
+  padding-bottom: 50px;
+}
+header span {
+  color: #2a5da3;
+}
+/* Display Section */
+.display {
+  background-color: #0a2345;
+  overflow: hidden;
+  padding-top: 0px;
+}
+/* about section */
+.about {
+  background-image: linear-gradient(#0a2345, #061831);
+  padding: 30px;
+  padding-bottom: 110px;
+}
+.about h1 {
+  margin-bottom: 80px;
+  text-align: center;
+}
+.features {
+  position: relative;
+}
+.app-feature h5 {
+  margin: 30px 0px 15px;
+}
+.app-feature p {
+  padding-right: 20px;
+}
+.app-feature {
+  padding: 20px;
+}
+.phone {
+  position: absolute;
+  left: 14%;
+  top: -43%;
+}
+/* service section */
+.service {
+  background-image: linear-gradient(#061831, #051020);
+  overflow: hidden;
+}
+/* gallery section */
+.gallery {
+  padding: 0;
+  background-color: #061224;
+}
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  background-color: #2a5da3;
+  border-radius: 100%;
+  margin: 0 7px;
+}
+.gallery h6 {
+  margin-bottom: 70px;
+  color: #66778e;
+  line-height: 2;
+}
+.gallery p {
+  margin-left: 10px;
+}
+/* disover section */
+.discover {
+  background-image: linear-gradient(#050f22, #030812);
+  text-align: center;
+}
+/* footer section */
+footer {
+  background-image: linear-gradient(#030812, #020103);
+}
+footer hr {
+  margin: 0;
+  border: 1px solid #153d74;
+}
+footer ul {
+  list-style: none;
+  padding-left: 0px;
+}
+footer ul li {
+  display: inline-block;
+  font-size: 10px;
+  margin-right: 10px;
+}
+footer ul li a {
+  color: #2a5da3;
+}
+footer p {
+  font-size: 12px;
+  color: #2a5da3;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  h1 {
+    font-size: 30px;
+  }
+  /* Header Section */
+
+  /* Display Section */
+  .display {
+    padding-bottom: 70px;
+
+    text-align: center;
+  }
+  .headphone img {
+    padding: 100px 70px 30px 0px;
+  }
+  .display-text {
+    margin: 20px 60px;
+  }
+  /* About Section */
+  .about {
+    padding-bottom: 40px;
+  }
+  .about h1 {
+    margin-bottom: 28px;
+  }
+  .app-feature {
+    text-align: center;
+  }
+  /* Service Section */
+  .service {
+    padding: 50px 0px;
+    text-align: center;
+  }
+  .service-content {
+    padding: 20px 60px 50px !important;
+  }
+  /* Gallery Section */
+  .gallery {
+    display: none;
+  }
+
+  /* Gallery Section */
+
+  /* Discover Section */
+  .discover p br {
+    display: none;
+  }
+  .discover p {
+    padding: 0 30px;
+  }
+  /* Footer */
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* Header Section */
+
+  /* Display Section */
+
+  /* About Section */
+  .about {
+    padding: 15px 0px;
+    overflow: hidden;
+  }
+  .app-feature {
+    padding-right: 86px;
+  }
+  .app-feature p {
+    font-size: 13px;
+  }
+  .phone {
+    left: 46%;
+    top: -9%;
+  }
+  /* Service Section */
+  .service {
+    padding: 75px 0px;
+  }
+  .service-content {
+    padding: 20px 60px 50px !important;
+  }
+  /* Gallery Section */
+  .gallery h6 {
+    font-size: 10px !important;
+    margin-bottom: 0px;
+  }
+  /* Discover Section */
+
+  /* Footer */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* Header Section */
+
+  /* Display Section */
+
+  /* About Section */
+  .app-feature p {
+    line-height: 1.2;
+  }
+  .phone {
+    left: -1%;
+    top: -11%;
+  }
+
+  /* Service Section */
+
+  /* Gallery Section */
+  .gallery br {
+    display: none;
+  }
+  .gallery h6 {
+    margin-bottom: 30px;
+  }
+
+  /* Discover Section */
+
+  /* Footer */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* Header Section */
+
+  /* Display Section */
+
+  /* About Section */
+  .app-feature p {
+    line-height: 1.5;
+  }
+  .phone {
+    left: 6%;
+    top: -35%;
+  }
+  /* Service Section */
+
+  /* Gallery Section */
+
+  /* Discover Section */
+
+  /* Footer */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
